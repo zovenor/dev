@@ -1,0 +1,15 @@
+{
+    "theme": "XY-Zed",
+    "features": {
+        "copilot": false
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 16,
+    "tab_size": 4,
+    "hard_tabs": true,
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 3000
+        }
+    }
+}
