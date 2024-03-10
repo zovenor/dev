@@ -1,0 +1,53 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "theme": "Tokyo Night",
+    "features": {
+        "copilot": false
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 16,
+    "tab_size": 4,
+    "hard_tabs": true,
+    "experimental.theme_overrides": {
+        "editor.background": "#000",
+        "tab_bar.background": "#000",
+        "title_bar.background": "#000",
+        "search.match_background": "#000",
+        "tab.active_background": "#000",
+        "tab.inactive_background": "#000",
+        "status_bar.background": "#000",
+        "scrollbar.thumb.hover_background": "#000",
+        "editor.document_highlight.read_background": "#000",
+        "editor.document_highlight.write_background": "#000",
+        "created.background": "#000",
+        "background": "#000",
+        "terminal.background": "#000",
+        "element.background": "#000",
+        "panel.background": "#000",
+        "info.background": "#000",
+        "conflict.background": "#000",
+        "deleted.background": "#000",
+        "error.background": "#000",
+        "hidden.background": "#000",
+        "editor.subheader.background": "#000",
+        "ghost_element.background": "#000",
+        "editor.highlighted_line.background": "#000",
+        "ignored.background": "#000",
+        "predictive.background": "#000",
+        "modified.background": "#000",
+        "unreachable.background": "#000",
+        "toolbar.background": "#000",
+        "success.background": "#000",
+        "surface.background": "#000",
+        "scrollbar.thumb.background": "#000",
+        "hint.background": "#000",
+        "editor.gutter.background": "#000"
+    }
+}
