@@ -1,3 +1,3 @@
 ```shell
-curl [-r] github.com/zovenor/dev/{something_file_or_dir} --output {your_dir}
+curl https://raw.githubusercontent.com/zovenor/dev/main/*/{something_file} --output {your_file}
 ```
