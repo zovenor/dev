@@ -21,6 +21,13 @@ return {
     config = function()
       require("cyberdream").setup({
         transparent = true,
+        borderless_telescope = true,
+        hide_fillchars = false,
+        extensions = {
+          telescope = true,
+          notify = true,
+          mini = true,
+        },
       })
     end,
   },
