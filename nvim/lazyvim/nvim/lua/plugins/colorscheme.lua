@@ -6,13 +6,23 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "oxocarbon",
+      colorscheme = "cyberdream",
     },
   },
   {
     "folke/tokyonight.nvim",
     lazy = true,
     opts = { style = "night" },
+  },
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("cyberdream").setup({
+        transparent = true,
+      })
+    end,
   },
   {
     "olivercederborg/poimandres.nvim",
@@ -28,7 +38,7 @@ return {
 
     -- optionally set the colorscheme within lazy config
     init = function()
-      vim.cmd("colorscheme poimandres")
+      vim.cmd("colorscheme cyberdream")
     end,
   },
 }
